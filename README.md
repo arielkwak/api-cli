@@ -1,7 +1,11 @@
 # Getting Started with API-CLI
-This project is for creating API endpoint and schema files through the command line. 
-One can customize the directory accordingly to where the files will be created. This CLI currently will create the files in the /routes directory (in the root) and when a user inputs a specific route will create corresponding files under the directory. For instance, if the user enters 'member' for directory when prompted, the files will be created under /routes/member. 
-The API-CLI is built for the directory to follow the routing of the API for best practices.
+This npm package creates API endpoint & schema files and converts JSON objects to JSON schemas through the command line. 
+One can customize the directory accordingly to where the files will be created. This CLI currently will create the files in the /routes directory (in the root) and when a user inputs a specific route will create corresponding files under the directory. For instance, if the user enters '/member' for directory when prompted, the files will be created under /routes/member. 
+
+The API-CLI is built for the directory to follow the routing of the API for best practices. For more information on npm package please look at the NPM Package section or refer to the [NPM Package Link](https://www.npmjs.com/package/api-json-cli?activeTab=readme).
+
+### Miscellaneous
+I have worked on this project as part of an internship at Justworks (cleared with legal for uploading on my own repo), thus a lot of commits has been disregarded as forking or mirroring were prohibited.
 
 ### How to run
 Users can run `apicli` to see a little introduction of the cli. The command `apicli --help` will show an overview of what the cli is capable of.
