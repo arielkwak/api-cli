@@ -20,7 +20,7 @@ To create an JSON schema from a JSON object user will type in `apicli json`. The
 The files are meant to trigger errors when first created by the CLI. Users will have to further customize the endpoint file where the `@` is at which includes responseSchema, config permission, and Handler. The schema files and endpoint files for detailed coding is defaulted to be empty as the CLI will be more of providing the structure for initial building of the API endpoint.  
 
 ### NPM Package
-This CLI is a npm package and could be installed as a dependency in any repository. 
+This CLI is a npm package and could be installed as a dependency in any repository using the command: `npm i api-json-cli`
 Currently the API endpoint template is built to assist [Fastify-CLI](https://www.npmjs.com/package/fastify-cli). Further customization on the template for API endpoint and schema files can be made on `template.mjs` and `schemaTemplate.mjs`. The routing or directory configuration can be made further as well. 
 
 ### Default Endpoint Template
