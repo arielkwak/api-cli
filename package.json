@@ -1,0 +1,24 @@
+{
+  "name": "@neonmoose/api-cli",
+  "version": "1.2.4",
+  "type": "module",
+  "description": "CLI for creating API endpoint files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ariel Kwak",
+  "license": "ISC",
+  "bin": {
+    "apicli": "bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "figlet": "^1.7.0",
+    "inquirer": "^10.1.5"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/neonmoose"
+  }
+}
