@@ -1,5 +1,5 @@
 {
-  "name": "@neonmoose/api-cli",
+  "name": "api-cli",
   "version": "1.2.4",
   "type": "module",
   "description": "CLI for creating API endpoint files",
@@ -17,8 +17,5 @@
     "commander": "^12.1.0",
     "figlet": "^1.7.0",
     "inquirer": "^10.1.5"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/neonmoose"
   }
 }
